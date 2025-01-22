@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+    
         //Recuperar os compoonentes EditText
 
         val edtWeight = findViewById<TextInputEditText>(R.id.edit_weight)
@@ -17,12 +17,17 @@ class MainActivity : AppCompatActivity() {
 
         val btnCalculate = findViewById<Button>(R.id.btn_calcular)
 
-       btnCalculate.setOnClickListener{
-           val weight = edtWeight.text
-           val height = edtHeight.text
 
-           println("thiago"+weight)
+       btnCalculate.setOnClickListener{
+           val weight: Float = edtWeight.text.toString().toFloat()
+           val height: Float = edtHeight.text.toString().toFloat()
+
+           val heightQ2 = height * height
+           val result = weight / heightQ2
+
+           println("thiago " + result)
        }
 
     }
 }
+
