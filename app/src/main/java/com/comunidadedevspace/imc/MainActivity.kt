@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
 
            } else {
 
-               val height = weightStr.toFloat()
-               val weight = heightStr.toFloat()
+               val height = heightStr.toFloat()
+               val weight = weightStr.toFloat()
 
                val heightQ2 = height * height
                val result = weight / heightQ2
