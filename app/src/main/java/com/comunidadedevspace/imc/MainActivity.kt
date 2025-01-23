@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
 
                val intent = Intent(this, ResultActivity::class.java)
                startActivity(intent)
+               intent.putExtra("KEY_RESULT_IMC",result)
 
                println(" thiago acao do botao " + result)
 
