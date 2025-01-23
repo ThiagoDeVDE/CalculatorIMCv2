@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Your IMC Class is:" />
+        android:text="Your IMC CLass is:" />
 
     <TextView
         android:id="@+id/tv_classification"

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">calculadoraimc</string>
+    <string name="your_imc_class_is">Your IMC Class is:</string>
 </resources>
