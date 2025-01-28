@@ -23,6 +23,8 @@
         android:id="@+id/textInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -30,24 +32,32 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_weight"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_bg"
+            android:drawableEnd="@drawable/ic_weight"
             android:hint="Type your weight ex 70.200"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:maxLength="6" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:hintEnabled="false"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
         tools:layout_editor_absoluteX="1dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_height"
+            android:drawableEnd="@drawable/ic_height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
-            android:hint="Type your height ex 1.70" />
+            android:background="@drawable/rounded_bg"
+            android:hint="Type your height ex 1.70"
+            android:maxLength="6"/>
     </com.google.android.material.textfield.TextInputLayout>
 
 
