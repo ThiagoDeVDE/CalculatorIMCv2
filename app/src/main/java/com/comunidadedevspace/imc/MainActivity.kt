@@ -45,8 +45,11 @@ class MainActivity : AppCompatActivity() {
                val result = weight / heightQ2
 
                val intent = Intent(this, ResultActivity::class.java)
-               intent.putExtra("KEY_RESULT_IMC  ",result)
+               intent.putExtra("KEY_RESULT_IMC  ", result)
                startActivity(intent)
+
+
+               println("thiago" + result)
 
 
 

@@ -21,7 +21,7 @@ class ResultActivity : AppCompatActivity() {
         tvResult.text = result.toString()
 
 
-        var status: String = null.toString()
+        var status: String? = null
 
         if(result <= 18.5f){
             status = "Underweight"
@@ -34,6 +34,8 @@ class ResultActivity : AppCompatActivity() {
         }
 
         tvClassification.text = status
+
+        println("thiago" + status)
 
 
 
