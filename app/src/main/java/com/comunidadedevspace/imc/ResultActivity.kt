@@ -21,17 +21,19 @@ class ResultActivity : AppCompatActivity() {
         tvResult.text = result.toString()
 
 
-        var status: String? = null
-
-        if(result <= 18.5f){
-            status = "Underweight"
-        }else if(result > 18.5f && result <= 29.9f){
-            status = "Overweight"
-        }else if(result > 30f && result <=39.9){
-            status = "Obese"
-        }else if(result > 40f){
-            status = "Morbid Obesity"
+        var status: String = if (result <= 18.5f){
+            "Underweight"
+        } else if (result > 18.5f && result <= 24.9f){
+            "Normal"
+        } else if (result > 25f && result <= 29.9f){
+            "Overweight"
+        } else if (result > 30f && result <=39.9){
+            "Obese"
+        } else {
+            "Obesity Risk"
         }
+
+        println(status)
 
         tvClassification.text = status
 
