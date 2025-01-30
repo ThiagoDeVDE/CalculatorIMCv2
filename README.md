@@ -1,5 +1,5 @@
 # BMI Calculator
-BMI Calculator is the second version of my first BMI calculator, where I improved my code and the UX.
+BMI Calculator is the second version of my first BMI calculator, where I improved my code and the User Experience.
 I developed the App using Native Android with the language Kotlin.
 
 ## :camera_flash: Screenshots
