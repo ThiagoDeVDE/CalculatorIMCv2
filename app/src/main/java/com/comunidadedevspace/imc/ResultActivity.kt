@@ -30,14 +30,14 @@ class ResultActivity : AppCompatActivity() {
         } else if (result > 30f && result <=39.9){
             "Obese"
         } else {
-            "Obesity Risk"
+            "Morbid Obesity"
         }
 
-        println(status)
 
         tvClassification.text = status
 
-        println("thiago" + status)
+
+
 
 
 
