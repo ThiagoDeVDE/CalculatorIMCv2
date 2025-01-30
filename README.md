@@ -1,19 +1,34 @@
-# Calculadora IMC
-Desc
+# BMI Calculator
+BMI Calculator was the second version of my first BMI calculator, where I improved my code and the UX.
+I developed the App using NAtive Android with the language Kotlin.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-Screenshots
+
+<img src="https://github.com/user-attachments/assets/9c7a8753-8fb7-4b4d-9798-d5749a38efbb" width=230/> <img src="https://github.com/user-attachments/assets/9c85dd85-28b5-467d-89fd-16df2af02a91" width=230/>
+
+
 
 ## Tecnologias
-Techs
+* Kotlin
+* Intent
+* Snackbar
+* ViewGroup
+    * RelativeLayout
+    * LinearLayout
+    * ConstraintLayout
+- ViewGroup
+    - TextView
+    - EditText
+    - Button
+    - ImageView
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2024 Thiago de Oliveira Reissmann
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
