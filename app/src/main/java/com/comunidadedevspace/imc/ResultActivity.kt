@@ -33,9 +33,7 @@ class ResultActivity : AppCompatActivity() {
             "Morbid Obesity"
         }
 
-
         tvClassification.text = status
-
 
 
 
